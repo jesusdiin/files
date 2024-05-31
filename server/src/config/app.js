@@ -18,6 +18,12 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({extended:true}));
+// Middleware para permitir CORS
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*'); // o el origen específico que desees permitir
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+  });
 
 app.set('pkg', pkg);
 
