@@ -4,6 +4,8 @@ import morgan from 'morgan';
 import pkg from './../../package.json' assert {type: 'json'};
 import dotenv from 'dotenv';
 
+import listFiles from './../libs/list.lib.js';
+
 const app = express();
 
 dotenv.config();
@@ -27,6 +29,10 @@ app.get('/', (req, res) => {
 		version: app.get('pkg').version
 	});
 });
+
+app.get('/list', async (req, res) => {
+    res.json(await listFiles('/'))
+})
 
 
 export default app;

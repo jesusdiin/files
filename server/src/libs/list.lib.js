@@ -14,3 +14,5 @@ const listFiles = async (directory) => {
   }
 };
 
+export default listFiles;
+
