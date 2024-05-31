@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Card() {
   const [fileList, setFileList] = useState([]);
 
   // Función para obtener y almacenar los datos del JSON
   useEffect(() => {
-    fetch('http://localhost:3001/list')
-      .then(response => response.json())
-      .then(data => setFileList(data))
-      .catch(error => console.error('Error al obtener el JSON:', error));
+    fetch("http://localhost:3001/list")
+      .then((response) => response.json())
+      .then((data) => setFileList(data))
+      .catch((error) => console.error("Error al obtener el JSON:", error));
   }, []);
 
   // Función para renderizar una tarjeta de archivo
@@ -25,10 +25,11 @@ function Card() {
     );
   };
 
+  //   return <>{fileList.map((file, index) => renderFileCard(file, index))}</>;
   return (
-    <>
+    <div className="flex flex-wrap justify-center">
       {fileList.map((file, index) => renderFileCard(file, index))}
-    </>
+    </div>
   );
 }
 
