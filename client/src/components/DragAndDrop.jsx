@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 const DragAndDropFolder = () => {
     const [files, setFiles] = useState([]);
-    const [folderPath, setFolderPath] = useState('');
+    const [folderName, setFolderName] = useState('');
+    const [fileStructure, setFileStructure] = useState({ subcarpetas: [], imagenes: [] });
 
     const handleDragOver = (event) => {
         event.preventDefault();
@@ -13,45 +14,54 @@ const DragAndDropFolder = () => {
         
         const items = event.dataTransfer.items;
         let newFiles = [];
+        let newFileStructure = { subcarpetas: [], archivos: {} };
 
         for (let i = 0; i < items.length; i++) {
             const item = items[i].webkitGetAsEntry();
 
             if (item) {
                 if (item.isDirectory) {
-                    setFolderPath(item.fullPath); // Set the folder path
-                    console.log('Ruta de la carpeta:', item.fullPath);
-                    readDirectory(item, newFiles);
+                    setFolderName(item.name); // Set the folder name
+                    console.log('Nombre de la carpeta:', item.name);
+                    readDirectory(item, newFiles, newFileStructure);
                 } else {
-                    displayFile(item, newFiles);
+                    displayFile(item, newFiles, newFileStructure);
                 }
             }
         }
     };
 
-    const readDirectory = (directoryEntry, newFiles) => {
+    const readDirectory = (directoryEntry, newFiles, newFileStructure) => {
         const dirReader = directoryEntry.createReader();
+        newFileStructure.subcarpetas.push(directoryEntry.fullPath);
         dirReader.readEntries((entries) => {
             for (let i = 0; i < entries.length; i++) {
                 const entry = entries[i];
                 if (entry.isDirectory) {
-                    readDirectory(entry, newFiles);
+                    readDirectory(entry, newFiles, newFileStructure);
                 } else {
-                    displayFile(entry, newFiles);
+                    displayFile(entry, newFiles, newFileStructure);
                 }
             }
             setFiles((prevFiles) => {
                 const updatedFiles = [...prevFiles, ...newFiles];
                 console.log('Archivos actuales:', updatedFiles);
+                console.log('Estructura de archivos:', newFileStructure);
                 return updatedFiles;
             });
+            setFileStructure(newFileStructure);
         });
     };
 
-    const displayFile = (fileEntry, newFiles) => {
+    const displayFile = (fileEntry, newFiles, newFileStructure) => {
         fileEntry.file((file) => {
             const filePath = file.webkitRelativePath || file.name;
             newFiles.push(filePath);
+            const ext = file.name.split('.').pop().toLowerCase();
+            if (!newFileStructure.imagenes[ext]) {
+                newFileStructure.imagenes[ext] = [];
+            }
+            newFileStructure.imagenes[ext].push({ nombre: file.name, extension: `.${ext}` });
             console.log('Archivo encontrado:', filePath);
         });
     };
@@ -70,6 +80,7 @@ const DragAndDropFolder = () => {
             >
                 Arrastra una carpeta aquí
             </div>
+            {folderName && <h3>Carpeta: {folderName}</h3>}
             <ul id="file-list">
                 {files.map((file, index) => (
                     <li key={index}>{file}</li>
