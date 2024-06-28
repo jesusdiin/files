@@ -1,6 +1,22 @@
+import React, { useState, useEffect } from "react";
 import Table from "./Table.jsx";
+import DragAndDropFolder from "./DragAndDrop.jsx";
 
 const Dashboard = () => {
+
+    const [fileList, setFileList] = useState([]);
+
+    // Función para obtener y almacenar los datos del JSON
+    useEffect(() => {
+      fetch("http://localhost:3001/list")
+        .then((response) => response.json())
+        .then((data) => setFileList(data))
+        .catch((error) => console.error("Error al obtener el JSON:", error));
+    }, []);
+
+
+
+
 
     return (
         <>
@@ -25,6 +41,10 @@ const Dashboard = () => {
                     <div className="bg-white p-4 shadow rounded-lg">
                         <h2 className="text-xl mb-2">Planes de Estudios</h2>
                         <button className="btn btn-accent">Abrir</button>
+                    </div>
+                    <div className="bg-white p-4 shadow rounded-lg">
+                        <h2 className="text-xl mb-2">Agregar</h2>
+                        <DragAndDropFolder />
                     </div>
                 </div>
                 <div className="grid grid-cols-1 mt-6">
@@ -55,7 +75,7 @@ const Dashboard = () => {
                                 <img src="https://cdn-icons-png.flaticon.com/256/12075/12075830.png" alt="" srcset="" />
                             </div>
                         </div>
-                        <span>Carpeta 1</span>
+                        <span>Carpeta 1gygyhgygy</span>
                     </div>
                     <div className="bg-white p-4 shadow">
                         <div className="avatar">
