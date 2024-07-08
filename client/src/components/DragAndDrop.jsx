@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const DragAndDropFolder = () => {
     const [files, setFiles] = useState([]);
     const [folderName, setFolderName] = useState('');
-    const [fileStructure, setFileStructure] = useState({ subcarpetas: [], imagenes: [] });
+    const [fileStructure, setFileStructure] = useState({ subcarpetas: [], imagenes: {} });
 
     const handleDragOver = (event) => {
         event.preventDefault();
@@ -14,7 +14,7 @@ const DragAndDropFolder = () => {
         
         const items = event.dataTransfer.items;
         let newFiles = [];
-        let newFileStructure = { subcarpetas: [], archivos: {} };
+        let newFileStructure = { subcarpetas: [], imagenes: {} };
 
         for (let i = 0; i < items.length; i++) {
             const item = items[i].webkitGetAsEntry();
@@ -29,6 +29,12 @@ const DragAndDropFolder = () => {
                 }
             }
         }
+
+        // After processing files, save to JSON
+        setTimeout(() => {
+            const json = JSON.stringify(newFileStructure, null, 2);
+            saveJsonToFile(json);
+        }, 1000); // Adjust timeout if needed
     };
 
     const readDirectory = (directoryEntry, newFiles, newFileStructure) => {
@@ -64,6 +70,25 @@ const DragAndDropFolder = () => {
             newFileStructure.imagenes[ext].push({ nombre: file.name, extension: `.${ext}` });
             console.log('Archivo encontrado:', filePath);
         });
+    };
+
+    const saveJsonToFile = async (jsonContent) => {
+        try {
+            const response = await fetch('http://localhost:3001/saveJson', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ data: jsonContent }),
+            });
+            if (response.ok) {
+                console.log('Archivo JSON guardado correctamente.');
+            } else {
+                console.error('Error al guardar el archivo JSON.');
+            }
+        } catch (error) {
+            console.error('Error en la solicitud fetch:', error);
+        }
     };
 
     return (

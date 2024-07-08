@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Table from "./Table.jsx";
 import DragAndDropFolder from "./DragAndDrop.jsx";
+import CarpetaComponent from "./PinedFile.jsx";
 
 const Dashboard = () => {
 
@@ -29,24 +30,10 @@ const Dashboard = () => {
             </div>
             <div className="w-4/5 bg-gray-100 p-4">
                 <h1 className="text-3xl mb-4">Organizador</h1>
-                <div className="grid grid-cols-3 gap-4">
-                    <div className="bg-white p-4 shadow rounded-lg">
-                        <h2 className="text-xl mb-2">Escolar</h2>
-                        <button className="btn btn-primary">Abrir</button>
-                    </div>
-                    <div className="bg-white p-4 shadow rounded-lg">
-                        <h2 className="text-xl mb-2">Posgrados</h2>
-                        <button className="btn btn-secondary">Abrir</button>
-                    </div>
-                    <div className="bg-white p-4 shadow rounded-lg">
-                        <h2 className="text-xl mb-2">Planes de Estudios</h2>
-                        <button className="btn btn-accent">Abrir</button>
-                    </div>
-                    <div className="bg-white p-4 shadow rounded-lg">
-                        <h2 className="text-xl mb-2">Agregar</h2>
-                        <DragAndDropFolder />
-                    </div>
-                </div>
+
+                <CarpetaComponent />
+
+
                 <div className="grid grid-cols-1 mt-6">
                     <div className="bg-white">
                         <h3 className="text-3xl font-bold">Carpetas</h3>
