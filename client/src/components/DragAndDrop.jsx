@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
 
+const agregarCarpeta = async () => {
+    const nuevaCarpeta = {
+        nombre: "Nueva Carpeta",
+        status: true,
+        ruta: "",
+        archivos: []
+    };
+}
+
 const DragAndDropFolder = () => {
     const [files, setFiles] = useState([]);
     const [folderName, setFolderName] = useState('');
@@ -15,21 +24,23 @@ const DragAndDropFolder = () => {
         const items = event.dataTransfer.items;
         let newFiles = [];
         let newFileStructure = { subcarpetas: [], imagenes: {} };
-
+    
         for (let i = 0; i < items.length; i++) {
             const item = items[i].webkitGetAsEntry();
-
+    
             if (item) {
                 if (item.isDirectory) {
-                    setFolderName(item.name); // Set the folder name
-                    console.log('Nombre de la carpeta:', item.name);
+                    const folderName = item.name;
                     readDirectory(item, newFiles, newFileStructure);
+                    
+                    // Perform POST with folder name
+                    postFolderName(folderName);
                 } else {
                     displayFile(item, newFiles, newFileStructure);
                 }
             }
         }
-
+    
         // After processing files, save to JSON
         setTimeout(() => {
             const json = JSON.stringify(newFileStructure, null, 2);
@@ -90,6 +101,33 @@ const DragAndDropFolder = () => {
             console.error('Error en la solicitud fetch:', error);
         }
     };
+
+    const postFolderName = async (folderName) => {
+        const nuevaCarpeta = {
+            nombre: folderName,
+            status: true,
+            ruta: "",
+            archivos: []
+        };
+    
+        try {
+            const response = await fetch('http://localhost:3001/addCarpeta', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(nuevaCarpeta),
+            });
+            if (response.ok) {
+                console.log('Nombre de carpeta enviado correctamente.');
+            } else {
+                console.error('Error al enviar el nombre de carpeta.');
+            }
+        } catch (error) {
+            console.error('Error en la solicitud fetch:', error);
+        }
+    };
+    
 
     return (
         <div>
