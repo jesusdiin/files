@@ -1,124 +1,1710 @@
 {
   "subcarpetas": [
-    "/Aztecas",
-    "/Aztecas/plantilla-invitacion-concepto-deporte-diseno-plano",
-    "/Aztecas/plantilla-poster-juego-baloncesto-jugador-masculino",
-    "/Aztecas/famosa",
-    "/Aztecas/diseno-plantilla-deporte-baloncesto",
-    "/Aztecas/calendario-partidos-futbol-plantilla-publicacion-redes-sociales"
+    "/LIGA EURO ALEBRIJES JUQUILA",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA",
+    "/LIGA EURO ALEBRIJES JUQUILA/Sacramento",
+    "/LIGA EURO ALEBRIJES JUQUILA/DOCUMENTOS Y FORMATOS - Liga",
+    "/LIGA EURO ALEBRIJES JUQUILA/infografia-posicion-futbol-degradado",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA - JORNADAS",
+    "/LIGA EURO ALEBRIJES JUQUILA/reconoemiento - liga",
+    "/LIGA EURO ALEBRIJES JUQUILA/campeon",
+    "/LIGA EURO ALEBRIJES JUQUILA/conferencia",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga",
+    "/LIGA EURO ALEBRIJES JUQUILA/FOTOS POST",
+    "/LIGA EURO ALEBRIJES JUQUILA/Logos - Equipos Liga Euro Alebrijes",
+    "/LIGA EURO ALEBRIJES JUQUILA/MARKETING",
+    "/LIGA EURO ALEBRIJES JUQUILA/FEMENIL",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER",
+    "/LIGA EURO ALEBRIJES JUQUILA/DOCUMENTOS Y FORMATOS - Liga/Liga Euro Alebrijes-1,Liga Euro Alebrijes-2,Liga Euro Alebrijes-3",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA - JORNADAS/plantilla-banner-publicitario-baloncesto",
+    "/LIGA EURO ALEBRIJES JUQUILA/campeon/american-football-template-design",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/BICHOS",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/GOLDEN TEAM",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/VECINOS",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/EL CAMPO",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/DULCERÍA DEL ANGEL",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/GUERREROS",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/LA ROMA",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/TIGRES",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/SANTA CRUZ",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/FUERZAS ESPECIALES",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/DINASTIA",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/scripts",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/varonil - pendientes",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/REAL SAN ANDRES",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/SLYTHERIN",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/Fotos - VARONIL ",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/credenciales exportadas",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/BANDIDOS",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/ACADEMIA CMC",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/LAFC",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/EL BARRIO",
+    "/LIGA EURO ALEBRIJES JUQUILA/credenciales - liga/REAL SOCIEDAD",
+    "/LIGA EURO ALEBRIJES JUQUILA/FEMENIL/VIDEOS - SANCIONES",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/Almacenamiento automático de Adobe After Effects",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/src",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)/OPENER",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)/VERSUS",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)/OPENER/SRCs",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)/VERSUS/SRCs",
+    "/LIGA EURO ALEBRIJES JUQUILA/LIGA/FOOTBALL_SOCCER_FIELD_OPENER/(Footage)/OPENER/SRCs/PRERENDERS"
   ],
-  "imagenes": {
-    "jpeg": [
-      {
-        "nombre": "logo esperanza.jpeg",
-        "extension": ".jpeg"
-      },
-      {
-        "nombre": "WhatsApp Image 2024-01-07 at 10.15.41 AM.jpeg",
-        "extension": ".jpeg"
-      }
-    ],
-    "ds_store": [
-      {
-        "nombre": ".DS_Store",
-        "extension": ".ds_store"
-      }
-    ],
-    "jpg": [
-      {
-        "nombre": "425468091_405636228662142_9209831021437288934_n.jpg",
-        "extension": ".jpg"
-      },
-      {
-        "nombre": "9000191.jpg",
-        "extension": ".jpg"
-      },
-      {
-        "nombre": "5398039.jpg",
-        "extension": ".jpg"
-      },
-      {
-        "nombre": "8680148.jpg",
-        "extension": ".jpg"
-      },
-      {
-        "nombre": "m029t0049_a_sport_social_media_24may23.jpg",
-        "extension": ".jpg"
-      }
-    ],
-    "png": [
-      {
-        "nombre": "Santa Cruz - Convocatoria v2.png",
-        "extension": ".png"
-      },
-      {
-        "nombre": "esperanza.png",
-        "extension": ".png"
-      },
-      {
-        "nombre": "LOGO - ESPERANZA JUQUILA.png",
-        "extension": ".png"
-      },
-      {
-        "nombre": "Santa Cruz - Convocatoria.png",
-        "extension": ".png"
-      },
-      {
-        "nombre": "Convocatoria - Santa Cruz - basquet.png",
-        "extension": ".png"
-      }
-    ],
-    "psd": [
-      {
-        "nombre": "promo 1x1.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "Santa Cruz - Convocatoria.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "9000190.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "aztecas.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "5398044.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "8680147.psd",
-        "extension": ".psd"
-      },
-      {
-        "nombre": "m029t0049_a_sport_social_media_24may23.psd",
-        "extension": ".psd"
-      }
-    ],
-    "zip": [
-      {
-        "nombre": "diseno-plantilla-deporte-baloncesto.zip",
-        "extension": ".zip"
-      },
-      {
-        "nombre": "plantilla-poster-juego-baloncesto-jugador-masculino.zip",
-        "extension": ".zip"
-      }
-    ],
-    "otf": [
-      {
-        "nombre": "Famosa-HeavyDemo.otf",
-        "extension": ".otf"
-      }
-    ],
-    "txt": [
-      {
-        "nombre": "AJ_THANK YOU.txt",
-        "extension": ".txt"
-      }
-    ]
-  }
+  "archivos": [
+    {
+      "nombre": "listaFotos.csv",
+      "ruta": "listaFotos.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "7621022.psd",
+      "ruta": "7621022.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Logo - Liga Euro Alebrijes Juquila - Transparente 1080x1350.png",
+      "ruta": "Logo - Liga Euro Alebrijes Juquila - Transparente 1080x1350.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "Sacramento.zip",
+      "ruta": "Sacramento.zip",
+      "extension": ".zip"
+    },
+    {
+      "nombre": "Equipos Academia - Liga - Integrantes.psd",
+      "ruta": "Equipos Academia - Liga - Integrantes.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Liga Alebrijes - Fotografía - MARCA DE AGUA.png",
+      "ruta": "Liga Alebrijes - Fotografía - MARCA DE AGUA.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Captura de pantalla 2023-11-27 a la(s) 18.12.01.png",
+      "ruta": "Captura de pantalla 2023-11-27 a la(s) 18.12.01.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes - Sponsors.png",
+      "ruta": "Liga Euro Alebrijes - Sponsors.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Copia de Liga Euro.psd",
+      "ruta": "Copia de Liga Euro.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "reconoemiento - liga.zip",
+      "ruta": "reconoemiento - liga.zip",
+      "extension": ".zip"
+    },
+    {
+      "nombre": "Reporte arbotrario.psd",
+      "ruta": "Reporte arbotrario.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Reporte arbotrario.png",
+      "ruta": "Reporte arbotrario.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "FotosTest.csv",
+      "ruta": "FotosTest.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "liga - t1.png",
+      "ruta": "liga - t1.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Equipos A vs Equipo B - Liga .psd",
+      "ruta": "Equipos A vs Equipo B - Liga .psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Captura de pantalla 2023-11-27 a la(s) 18.12.43.png",
+      "ruta": "Captura de pantalla 2023-11-27 a la(s) 18.12.43.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "qr - liga - t1.svg",
+      "ruta": "qr - liga - t1.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "card 2.png",
+      "ruta": "card 2.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "FOOTBALL_SOCCER_FIELD_OPENER.rar",
+      "ruta": "FOOTBALL_SOCCER_FIELD_OPENER.rar",
+      "extension": ".rar"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "Sacramento-Regular.ttf",
+      "ruta": "Sacramento-Regular.ttf",
+      "extension": ".ttf"
+    },
+    {
+      "nombre": "OFL.txt",
+      "ruta": "OFL.txt",
+      "extension": ".txt"
+    },
+    {
+      "nombre": "Reunion varonil - 1 de 2.png",
+      "ruta": "Reunion varonil - 1 de 2.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Reunion varonil .pdf",
+      "ruta": "Reunion varonil .pdf",
+      "extension": ".pdf"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes.pptx",
+      "ruta": "Liga Euro Alebrijes.pptx",
+      "extension": ".pptx"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "REGLAMENTO LIGA EURO ALEBRIES JUQUILA.pdf",
+      "ruta": "REGLAMENTO LIGA EURO ALEBRIES JUQUILA.pdf",
+      "extension": ".pdf"
+    },
+    {
+      "nombre": "Reunion varonil - 2 de 2.png",
+      "ruta": "Reunion varonil - 2 de 2.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "7620899.eps",
+      "ruta": "7620899.eps",
+      "extension": ".eps"
+    },
+    {
+      "nombre": "7620869.ai",
+      "ruta": "7620869.ai",
+      "extension": ".ai"
+    },
+    {
+      "nombre": "Fonts.txt",
+      "ruta": "Fonts.txt",
+      "extension": ".txt"
+    },
+    {
+      "nombre": "7620900.jpg",
+      "ruta": "7620900.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "LIGA - FORMATO VS.psd",
+      "ruta": "LIGA - FORMATO VS.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "Portada - Facebook.png",
+      "ruta": "Portada - Facebook.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Equipo A VS Equipo B - Formato - Liga.psd",
+      "ruta": "Equipo A VS Equipo B - Formato - Liga.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Academia - Equipo Naranja - SUB9.png",
+      "ruta": "Academia - Equipo Naranja - SUB9.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "teste a vs b.psd",
+      "ruta": "teste a vs b.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Reporte Arbitro - LIGA - HOJA.png",
+      "ruta": "Reporte Arbitro - LIGA - HOJA.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "ale - png.png",
+      "ruta": "ale - png.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "silueta-futbol-mujer-joven_407354-64.jpg",
+      "ruta": "silueta-futbol-mujer-joven_407354-64.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "Academia - Equipo Negro SUB9.png",
+      "ruta": "Academia - Equipo Negro SUB9.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Portada - Facebook v2.png",
+      "ruta": "Portada - Facebook v2.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Portada - Facebook v3.png",
+      "ruta": "Portada - Facebook v3.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro.psd",
+      "ruta": "Liga Euro.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "tp204-certificate-01.jpg",
+      "ruta": "tp204-certificate-01.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "tp204-certificate-01.psd",
+      "ruta": "tp204-certificate-01.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "PXL_20240315_202601189.NIGHT.jpg",
+      "ruta": "PXL_20240315_202601189.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201115952.NIGHT.jpg",
+      "ruta": "PXL_20240315_201115952.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "WhatsApp Image 2024-03-15 at 5.02.12 PM.jpeg",
+      "ruta": "WhatsApp Image 2024-03-15 at 5.02.12 PM.jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PXL_20240315_201144141.NIGHT.jpg",
+      "ruta": "PXL_20240315_201144141.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201303816.NIGHT.jpg",
+      "ruta": "PXL_20240315_201303816.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201119955.NIGHT.jpg",
+      "ruta": "PXL_20240315_201119955.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_202534849.NIGHT.jpg",
+      "ruta": "PXL_20240315_202534849.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201049437.NIGHT.jpg",
+      "ruta": "PXL_20240315_201049437.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205200.jpg",
+      "ruta": "IMG_20240315_205200.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_200844699.NIGHT.jpg",
+      "ruta": "PXL_20240315_200844699.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205156.jpg",
+      "ruta": "IMG_20240315_205156.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201226078.NIGHT.jpg",
+      "ruta": "PXL_20240315_201226078.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201259161.NIGHT.jpg",
+      "ruta": "PXL_20240315_201259161.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201323349.NIGHT.jpg",
+      "ruta": "PXL_20240315_201323349.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "VID-20240315-WA0035.mp4",
+      "ruta": "VID-20240315-WA0035.mp4",
+      "extension": ".mp4"
+    },
+    {
+      "nombre": "IMG_20240315_205948.jpg",
+      "ruta": "IMG_20240315_205948.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_200857232.NIGHT.jpg",
+      "ruta": "PXL_20240315_200857232.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_204251775.NIGHT.jpg",
+      "ruta": "PXL_20240315_204251775.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_204454232.NIGHT.jpg",
+      "ruta": "PXL_20240315_204454232.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "Temario y Horarios.pdf",
+      "ruta": "Temario y Horarios.pdf",
+      "extension": ".pdf"
+    },
+    {
+      "nombre": "PXL_20240315_200851820.NIGHT.jpg",
+      "ruta": "PXL_20240315_200851820.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_204332664.NIGHT.jpg",
+      "ruta": "PXL_20240315_204332664.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205133.jpg",
+      "ruta": "IMG_20240315_205133.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_201319932.NIGHT.jpg",
+      "ruta": "PXL_20240315_201319932.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PXL_20240315_204315780.NIGHT.jpg",
+      "ruta": "PXL_20240315_204315780.NIGHT.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205130.jpg",
+      "ruta": "IMG_20240315_205130.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205939.jpg",
+      "ruta": "IMG_20240315_205939.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240315_205119.jpg",
+      "ruta": "IMG_20240315_205119.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "card.card",
+      "ruta": "card.card",
+      "extension": ".card"
+    },
+    {
+      "nombre": "qr- 17.png",
+      "ruta": "qr- 17.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "qr - 20.svg",
+      "ruta": "qr - 20.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "qr - 16.svg",
+      "ruta": "qr - 16.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "qr - 17.svg",
+      "ruta": "qr - 17.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "qr - 15.svg",
+      "ruta": "qr - 15.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "qr - 14.svg",
+      "ruta": "qr - 14.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "qr - 13.svg",
+      "ruta": "qr - 13.svg",
+      "extension": ".svg"
+    },
+    {
+      "nombre": "132_business_card.jpg",
+      "ruta": "132_business_card.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "Credenciales - Liga - Formato.psd",
+      "ruta": "Credenciales - Liga - Formato.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "_DSC8058.jpg",
+      "ruta": "_DSC8058.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8073.jpg",
+      "ruta": "_DSC8073.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8067.jpg",
+      "ruta": "_DSC8067.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8305.jpg",
+      "ruta": "_DSC8305.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8099.jpg",
+      "ruta": "_DSC8099.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8076.jpg",
+      "ruta": "_DSC8076.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC7782.jpg",
+      "ruta": "_DSC7782.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8077.jpg",
+      "ruta": "_DSC8077.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8507.jpg",
+      "ruta": "_DSC8507.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8061.jpg",
+      "ruta": "_DSC8061.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC7959.jpg",
+      "ruta": "_DSC7959.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8114.jpg",
+      "ruta": "_DSC8114.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8410.jpg",
+      "ruta": "_DSC8410.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8003.jpg",
+      "ruta": "_DSC8003.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC3239.jpg",
+      "ruta": "_DSC3239.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC7897.jpg",
+      "ruta": "_DSC7897.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8291.jpg",
+      "ruta": "_DSC8291.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8068.jpg",
+      "ruta": "_DSC8068.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC7944.jpg",
+      "ruta": "_DSC7944.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8055.jpg",
+      "ruta": "_DSC8055.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "_DSC8055-2.jpg",
+      "ruta": "_DSC8055-2.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_133457.png",
+      "ruta": "PhotoRoom-20231129_133457.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Dulcería del Angel - Logo.png",
+      "ruta": "Dulcería del Angel - Logo.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Adobe_Express_20231129_1406340_1.png",
+      "ruta": "Adobe_Express_20231129_1406340_1.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Screenshot_2023-12-03-17-45-26-900_com.whatsapp-edit-transformed-removebg-preview.png",
+      "ruta": "Screenshot_2023-12-03-17-45-26-900_com.whatsapp-edit-transformed-removebg-preview.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "i.png",
+      "ruta": "i.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_142136.png",
+      "ruta": "PhotoRoom-20231129_142136.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_141417.png",
+      "ruta": "PhotoRoom-20231129_141417.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "WhatsApp Image 2023-12-12 at 11.26.25 PM.jpeg",
+      "ruta": "WhatsApp Image 2023-12-12 at 11.26.25 PM.jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_141840.png",
+      "ruta": "PhotoRoom-20231129_141840.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "OIG (6).jpeg",
+      "ruta": "OIG (6).jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PhotoRoom-20231130_110359.png",
+      "ruta": "PhotoRoom-20231130_110359.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "PhotoRoom-20231130_200326.png",
+      "ruta": "PhotoRoom-20231130_200326.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "WhatsApp Image 2023-12-08 at 7.21.08 PM (1).jpeg",
+      "ruta": "WhatsApp Image 2023-12-08 at 7.21.08 PM (1).jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_131434.png",
+      "ruta": "PhotoRoom-20231129_131434.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_131149.png",
+      "ruta": "PhotoRoom-20231129_131149.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "OIG (6).psd",
+      "ruta": "OIG (6).psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "images (39).jpeg",
+      "ruta": "images (39).jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "images (4).png",
+      "ruta": "images (4).png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "FB_IMG_1701288199274.jpg",
+      "ruta": "FB_IMG_1701288199274.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_130052.png",
+      "ruta": "PhotoRoom-20231129_130052.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "las chicas.png",
+      "ruta": "las chicas.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "WhatsApp Image 2023-12-08 at 9.22.13 AM.jpeg",
+      "ruta": "WhatsApp Image 2023-12-08 at 9.22.13 AM.jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_132021.png",
+      "ruta": "PhotoRoom-20231129_132021.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Marketing - Instituto Euro Americano.pdf",
+      "ruta": "Marketing - Instituto Euro Americano.pdf",
+      "extension": ".pdf"
+    },
+    {
+      "nombre": "WhatsApp Image 2023-12-08 at 7.21.08 PM.jpeg",
+      "ruta": "WhatsApp Image 2023-12-08 at 7.21.08 PM.jpeg",
+      "extension": ".jpeg"
+    },
+    {
+      "nombre": "PhotoRoom-20231129_134136.png",
+      "ruta": "PhotoRoom-20231129_134136.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "portada - Liga.psd",
+      "ruta": "portada - Liga.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "Liga - Sub 9.png",
+      "ruta": "Liga - Sub 9.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga - Femenil.png",
+      "ruta": "Liga - Femenil.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga - Varonil.png",
+      "ruta": "Liga - Varonil.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga - Sub7.png",
+      "ruta": "Liga - Sub7.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga - Sub 7.png",
+      "ruta": "Liga - Sub 7.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga - Sub 13.png",
+      "ruta": "Liga - Sub 13.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Sin título-1.psd",
+      "ruta": "Sin título-1.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro copy (CS6).aep",
+      "ruta": "Football or Soccer Field Intro copy (CS6).aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro (convertido).aep",
+      "ruta": "Football or Soccer Field Intro (convertido).aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro.aep",
+      "ruta": "Football or Soccer Field Intro.aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-8.png",
+      "ruta": "Liga Euro Alebrijes-8.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-7.png",
+      "ruta": "Liga Euro Alebrijes-7.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-6.png",
+      "ruta": "Liga Euro Alebrijes-6.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-4.png",
+      "ruta": "Liga Euro Alebrijes-4.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-5.png",
+      "ruta": "Liga Euro Alebrijes-5.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-1.png",
+      "ruta": "Liga Euro Alebrijes-1.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-2.png",
+      "ruta": "Liga Euro Alebrijes-2.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Liga Euro Alebrijes-3.png",
+      "ruta": "Liga Euro Alebrijes-3.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "License premium.txt",
+      "ruta": "License premium.txt",
+      "extension": ".txt"
+    },
+    {
+      "nombre": "4704802.jpg",
+      "ruta": "4704802.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "License free.txt",
+      "ruta": "License free.txt",
+      "extension": ".txt"
+    },
+    {
+      "nombre": "4704868.psd",
+      "ruta": "4704868.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "9583283.jpg",
+      "ruta": "9583283.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "9583284.psd",
+      "ruta": "9583284.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J77.jpg",
+      "ruta": "J77.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J78.jpg",
+      "ruta": "J78.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J79.jpg",
+      "ruta": "J79.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J82.jpg",
+      "ruta": "J82.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J83.jpg",
+      "ruta": "J83.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J81.jpg",
+      "ruta": "J81.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J80.jpg",
+      "ruta": "J80.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J39.jpg",
+      "ruta": "J39.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J38.jpg",
+      "ruta": "J38.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J37.jpg",
+      "ruta": "J37.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J44.jpg",
+      "ruta": "J44.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J41.jpg",
+      "ruta": "J41.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J40.jpg",
+      "ruta": "J40.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J42.jpg",
+      "ruta": "J42.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J43.jpg",
+      "ruta": "J43.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J99.jpg",
+      "ruta": "J99.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J106.jpg",
+      "ruta": "J106.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J105.jpg",
+      "ruta": "J105.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J150.jpg",
+      "ruta": "J150.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J151.jpg",
+      "ruta": "J151.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J98.jpg",
+      "ruta": "J98.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20231209_183328.jpg",
+      "ruta": "IMG_20231209_183328.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "IMG_20231209_183330 real San Andrés.jpg",
+      "ruta": "IMG_20231209_183330 real San Andrés.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J93.jpg",
+      "ruta": "J93.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J92.jpg",
+      "ruta": "J92.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J96.jpg",
+      "ruta": "J96.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J95.jpg",
+      "ruta": "J95.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J94.jpg",
+      "ruta": "J94.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J13.jpg",
+      "ruta": "J13.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J17.jpg",
+      "ruta": "J17.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J16.jpg",
+      "ruta": "J16.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J14.jpg",
+      "ruta": "J14.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J15.jpg",
+      "ruta": "J15.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J18.jpg",
+      "ruta": "J18.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J20.jpg",
+      "ruta": "J20.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J114.jpg",
+      "ruta": "J114.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J112.jpg",
+      "ruta": "J112.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J107.jpg",
+      "ruta": "J107.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J113.jpg",
+      "ruta": "J113.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J111.jpg",
+      "ruta": "J111.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J110.jpg",
+      "ruta": "J110.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J109.jpg",
+      "ruta": "J109.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J108.jpg",
+      "ruta": "J108.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J121.jpg",
+      "ruta": "J121.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J122.jpg",
+      "ruta": "J122.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J123.jpg",
+      "ruta": "J123.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J126.jpg",
+      "ruta": "J126.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J124.jpg",
+      "ruta": "J124.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J125.jpg",
+      "ruta": "J125.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J66.jpg",
+      "ruta": "J66.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J65.jpg",
+      "ruta": "J65.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J64.jpg",
+      "ruta": "J64.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J61.jpg",
+      "ruta": "J61.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J63.jpg",
+      "ruta": "J63.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J62.jpg",
+      "ruta": "J62.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J68.jpg",
+      "ruta": "J68.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "newUsuarios.csv",
+      "ruta": "newUsuarios.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "users.csv",
+      "ruta": "users.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "usersFinal.csv",
+      "ruta": "usersFinal.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "csvToJson.py",
+      "ruta": "csvToJson.py",
+      "extension": ".py"
+    },
+    {
+      "nombre": "jsoncrack.com.png",
+      "ruta": "jsoncrack.com.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "_uploads_658e67056f7259.37107828_fixed.MP4_preview.MP4",
+      "ruta": "_uploads_658e67056f7259.37107828_fixed.MP4_preview.MP4",
+      "extension": ".mp4"
+    },
+    {
+      "nombre": "data.json",
+      "ruta": "data.json",
+      "extension": ".json"
+    },
+    {
+      "nombre": "users2.csv",
+      "ruta": "users2.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "aws_new.pem",
+      "ruta": "aws_new.pem",
+      "extension": ".pem"
+    },
+    {
+      "nombre": "usuarios.csv",
+      "ruta": "usuarios.csv",
+      "extension": ".csv"
+    },
+    {
+      "nombre": "4ddig-file-repair-mac.dmg",
+      "ruta": "4ddig-file-repair-mac.dmg",
+      "extension": ".dmg"
+    },
+    {
+      "nombre": "jsoncrack (1).json",
+      "ruta": "jsoncrack (1).json",
+      "extension": ".json"
+    },
+    {
+      "nombre": "_uploads_658e67056f7259.37107828_658f8d8e8ea705.81733070_f.MP4",
+      "ruta": "_uploads_658e67056f7259.37107828_658f8d8e8ea705.81733070_f.MP4",
+      "extension": ".mp4"
+    },
+    {
+      "nombre": "main.py",
+      "ruta": "main.py",
+      "extension": ".py"
+    },
+    {
+      "nombre": "jsoncrack.json",
+      "ruta": "jsoncrack.json",
+      "extension": ".json"
+    },
+    {
+      "nombre": "idCsv.py",
+      "ruta": "idCsv.py",
+      "extension": ".py"
+    },
+    {
+      "nombre": "read.py",
+      "ruta": "read.py",
+      "extension": ".py"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "1705979900105.jpg",
+      "ruta": "1705979900105.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J72.jpg",
+      "ruta": "J72.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J73.jpg",
+      "ruta": "J73.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J71.jpg",
+      "ruta": "J71.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J70.jpg",
+      "ruta": "J70.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J75.jpg",
+      "ruta": "J75.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J76.jpg",
+      "ruta": "J76.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J69.jpg",
+      "ruta": "J69.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240204_150552.jpg",
+      "ruta": "IMG_20240204_150552.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240204_150550.jpg",
+      "ruta": "IMG_20240204_150550.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "IMG_20240204_150533.jpg",
+      "ruta": "IMG_20240204_150533.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "IMG_20240204_150534.jpg",
+      "ruta": "IMG_20240204_150534.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J24.jpg",
+      "ruta": "J24.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J25.jpg",
+      "ruta": "J25.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J27.jpg",
+      "ruta": "J27.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J26.jpg",
+      "ruta": "J26.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J22.jpg",
+      "ruta": "J22.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J23.jpg",
+      "ruta": "J23.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J21.jpg",
+      "ruta": "J21.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "credencial - reverso.png",
+      "ruta": "credencial - reverso.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "id - 15.png",
+      "ruta": "id - 15.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "id - 17.png",
+      "ruta": "id - 17.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "J48.jpg",
+      "ruta": "J48.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J49.jpg",
+      "ruta": "J49.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J47.jpg",
+      "ruta": "J47.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J46.jpg",
+      "ruta": "J46.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J45.jpg",
+      "ruta": "J45.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J51.jpg",
+      "ruta": "J51.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J11.jpg",
+      "ruta": "J11.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J10.jpg",
+      "ruta": "J10.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J5.jpg",
+      "ruta": "J5.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J7.jpg",
+      "ruta": "J7.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J12.jpg",
+      "ruta": "J12.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J8.jpg",
+      "ruta": "J8.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J9.jpg",
+      "ruta": "J9.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J88.jpg",
+      "ruta": "J88.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J89.jpg",
+      "ruta": "J89.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J90.jpg",
+      "ruta": "J90.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J91.jpg",
+      "ruta": "J91.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J85.jpg",
+      "ruta": "J85.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J87.jpg",
+      "ruta": "J87.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J86.jpg",
+      "ruta": "J86.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J29.jpg",
+      "ruta": "J29.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J31.jpg",
+      "ruta": "J31.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J33.jpg",
+      "ruta": "J33.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J32.jpg",
+      "ruta": "J32.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J36.jpg",
+      "ruta": "J36.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J35.jpg",
+      "ruta": "J35.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J34.jpg",
+      "ruta": "J34.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J59.jpg",
+      "ruta": "J59.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "j58.jpg",
+      "ruta": "j58.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J60.jpg",
+      "ruta": "J60.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "J53.jpg",
+      "ruta": "J53.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J54.jpg",
+      "ruta": "J54.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J56.jpg",
+      "ruta": "J56.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "J57.jpg",
+      "ruta": "J57.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "20240411222816600_da6b03f72dfd4626bd9112ce1eb7d97f_K45285440.mp4",
+      "ruta": "20240411222816600_da6b03f72dfd4626bd9112ce1eb7d97f_K45285440.mp4",
+      "extension": ".mp4"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro (convertido) almacenamiento automático 4.aep",
+      "ruta": "Football or Soccer Field Intro (convertido) almacenamiento automático 4.aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro (convertido) almacenamiento automático 2.aep",
+      "ruta": "Football or Soccer Field Intro (convertido) almacenamiento automático 2.aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro (convertido) almacenamiento automático 3.aep",
+      "ruta": "Football or Soccer Field Intro (convertido) almacenamiento automático 3.aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": "Football or Soccer Field Intro (convertido) almacenamiento automático 1.aep",
+      "ruta": "Football or Soccer Field Intro (convertido) almacenamiento automático 1.aep",
+      "extension": ".aep"
+    },
+    {
+      "nombre": ".DS_Store",
+      "ruta": ".DS_Store",
+      "extension": ".ds_store"
+    },
+    {
+      "nombre": "logo dulceria.png",
+      "ruta": "logo dulceria.png",
+      "extension": ".png"
+    },
+    {
+      "nombre": "Y2meta.app - Música Deportiva para tus videos (Sin Copyright) (128 kbps) (1).mp3",
+      "ruta": "Y2meta.app - Música Deportiva para tus videos (Sin Copyright) (128 kbps) (1).mp3",
+      "extension": ".mp3"
+    },
+    {
+      "nombre": "GRASS_TEXTURE.jpg",
+      "ruta": "GRASS_TEXTURE.jpg",
+      "extension": ".jpg"
+    },
+    {
+      "nombre": "grass_side.psd",
+      "ruta": "grass_side.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "STADIUM_NIGHT.psd",
+      "ruta": "STADIUM_NIGHT.psd",
+      "extension": ".psd"
+    },
+    {
+      "nombre": "envato_white.ai",
+      "ruta": "envato_white.ai",
+      "extension": ".ai"
+    },
+    {
+      "nombre": "OPENER_OPTICAL_GENERAL_2.mov",
+      "ruta": "OPENER_OPTICAL_GENERAL_2.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "OPENER_OPTICAL_GENERAL.mov",
+      "ruta": "OPENER_OPTICAL_GENERAL.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "VERSUS_OPTICALS.mov",
+      "ruta": "VERSUS_OPTICALS.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "VERSUS_PARTICULAR.mov",
+      "ruta": "VERSUS_PARTICULAR.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "OPENER_OPTICALS.mov",
+      "ruta": "OPENER_OPTICALS.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "OPENER_PARTICULAR.mov",
+      "ruta": "OPENER_PARTICULAR.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "VERSUS_OPTICAL_GENERAL.mov",
+      "ruta": "VERSUS_OPTICAL_GENERAL.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "STADIUM_LIGHTS.mov",
+      "ruta": "STADIUM_LIGHTS.mov",
+      "extension": ".mov"
+    },
+    {
+      "nombre": "VERSUS_OPTICAL_GENERAL_2.mov",
+      "ruta": "VERSUS_OPTICAL_GENERAL_2.mov",
+      "extension": ".mov"
+    }
+  ]
 }

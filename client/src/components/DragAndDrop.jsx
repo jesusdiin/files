@@ -1,29 +1,21 @@
 import React, { useState } from 'react';
-
-const agregarCarpeta = async () => {
-    const nuevaCarpeta = {
-        nombre: "Nueva Carpeta",
-        status: true,
-        ruta: "",
-        archivos: []
-    };
-}
+import toValidUrl from './libs/createValidateUrl';
 
 const DragAndDropFolder = () => {
     const [files, setFiles] = useState([]);
     const [folderName, setFolderName] = useState('');
-    const [fileStructure, setFileStructure] = useState({ subcarpetas: [], imagenes: {} });
+    const [fileStructure, setFileStructure] = useState({ subcarpetas: [], archivos: [] });
 
     const handleDragOver = (event) => {
         event.preventDefault();
     };
 
-    const handleDrop = (event) => {
+    const handleDrop = async (event) => {
         event.preventDefault();
         
         const items = event.dataTransfer.items;
         let newFiles = [];
-        let newFileStructure = { subcarpetas: [], imagenes: {} };
+        let newFileStructure = { subcarpetas: [], archivos: [] };
     
         for (let i = 0; i < items.length; i++) {
             const item = items[i].webkitGetAsEntry();
@@ -31,83 +23,65 @@ const DragAndDropFolder = () => {
             if (item) {
                 if (item.isDirectory) {
                     const folderName = item.name;
-                    readDirectory(item, newFiles, newFileStructure);
-                    
-                    // Perform POST with folder name
-                    postFolderName(folderName);
+                    setFolderName(folderName);
+                    await readDirectory(item, newFiles, newFileStructure);
+                    // Perform POST with folder name and files
+                    await postFolderName(folderName, newFileStructure.subcarpetas, newFileStructure.archivos);
+
+                    console.log('Archivos actuales:', newFiles);
                 } else {
-                    displayFile(item, newFiles, newFileStructure);
+                    await displayFile(item, newFiles, newFileStructure);
                 }
             }
         }
-    
-        // After processing files, save to JSON
-        setTimeout(() => {
-            const json = JSON.stringify(newFileStructure, null, 2);
-            saveJsonToFile(json);
-        }, 1000); // Adjust timeout if needed
+
+        const json = JSON.stringify(newFileStructure, null, 2);
+        //saveJsonToFile(json);
+
+        setFiles(newFiles);
+        setFileStructure(newFileStructure);
     };
 
     const readDirectory = (directoryEntry, newFiles, newFileStructure) => {
-        const dirReader = directoryEntry.createReader();
-        newFileStructure.subcarpetas.push(directoryEntry.fullPath);
-        dirReader.readEntries((entries) => {
-            for (let i = 0; i < entries.length; i++) {
-                const entry = entries[i];
-                if (entry.isDirectory) {
-                    readDirectory(entry, newFiles, newFileStructure);
-                } else {
-                    displayFile(entry, newFiles, newFileStructure);
+        return new Promise((resolve) => {
+            const dirReader = directoryEntry.createReader();
+            newFileStructure.subcarpetas.push(directoryEntry.fullPath);
+            dirReader.readEntries(async (entries) => {
+                for (let i = 0; i < entries.length; i++) {
+                    const entry = entries[i];
+                    if (entry.isDirectory) {
+                        await readDirectory(entry, newFiles, newFileStructure);
+                    } else {
+                        await displayFile(entry, newFiles, newFileStructure);
+                    }
                 }
-            }
-            setFiles((prevFiles) => {
-                const updatedFiles = [...prevFiles, ...newFiles];
-                console.log('Archivos actuales:', updatedFiles);
-                console.log('Estructura de archivos:', newFileStructure);
-                return updatedFiles;
+                resolve();
             });
-            setFileStructure(newFileStructure);
         });
     };
 
     const displayFile = (fileEntry, newFiles, newFileStructure) => {
-        fileEntry.file((file) => {
-            const filePath = file.webkitRelativePath || file.name;
-            newFiles.push(filePath);
-            const ext = file.name.split('.').pop().toLowerCase();
-            if (!newFileStructure.imagenes[ext]) {
-                newFileStructure.imagenes[ext] = [];
-            }
-            newFileStructure.imagenes[ext].push({ nombre: file.name, extension: `.${ext}` });
-            console.log('Archivo encontrado:', filePath);
+        return new Promise((resolve) => {
+            fileEntry.file((file) => {
+                const filePath = file.webkitRelativePath || file.name;
+                newFiles.push(filePath);
+                const ext = file.name.split('.').pop().toLowerCase();
+                newFileStructure.archivos.push({ nombre: file.name, ruta: filePath, extension: `.${ext}` });
+                resolve();
+            });
         });
     };
 
-    const saveJsonToFile = async (jsonContent) => {
-        try {
-            const response = await fetch('http://localhost:3001/saveJson', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ data: jsonContent }),
-            });
-            if (response.ok) {
-                console.log('Archivo JSON guardado correctamente.');
-            } else {
-                console.error('Error al guardar el archivo JSON.');
-            }
-        } catch (error) {
-            console.error('Error en la solicitud fetch:', error);
-        }
-    };
+    const postFolderName = async (folderName, subcarpetas, archivos) => {
+        const rutaValidated = toValidUrl(folderName);
 
-    const postFolderName = async (folderName) => {
         const nuevaCarpeta = {
             nombre: folderName,
             status: true,
-            ruta: "",
-            archivos: []
+            rutarelativa: "",
+            ruta: rutaValidated,
+            subcarpetas: subcarpetas,
+            archivos: archivos
         };
     
         try {
@@ -119,9 +93,9 @@ const DragAndDropFolder = () => {
                 body: JSON.stringify(nuevaCarpeta),
             });
             if (response.ok) {
-                console.log('Nombre de carpeta enviado correctamente.');
+                console.log('Nombre de carpeta y archivos enviados correctamente.');
             } else {
-                console.error('Error al enviar el nombre de carpeta.');
+                console.error('Error al enviar el nombre de carpeta y archivos.');
             }
         } catch (error) {
             console.error('Error en la solicitud fetch:', error);
